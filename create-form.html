@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GrandForm - Form Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <span class="brand">GrandForm</span>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="create-form.html" class="active">Builder</a>
+            <a href="preview.html">Preview</a>
+            <a href="responses.html">Responses</a>
+            <a href="themes.html">Theme</a>
+            <a href="settings.html">Settings</a>
+            <a href="help.html">Help</a>
+        </nav>
+    </header>
+    <main class="form-builder-main">
+        <div class="form-title-row">
+            <input type="text" id="formTitle" placeholder="Untitled Form" class="form-title-input" />
+            <input type="text" id="formDesc" placeholder="Form Description" class="form-desc-input">
+        </div>
+        <div id="questionsContainer"></div>
+        <div class="form-builder-toolbar">
+            <button class="add-question-btn">Add Question</button>
+            <button class="import-question-btn">Import Question</button>
+            <button class="add-image-btn">Add Image</button>
+            <button class="add-video-btn">Add Video</button>
+            <button class="add-section-btn">Add Section</button>
+        </div>
+        <div class="form-builder-actions">
+            <button onclick="window.location.href='preview.html'">Preview</button>
+            <button class="save-btn">Save Form</button>
+        </div>
+    </main>
+    <footer>
+        <small>&copy; 2025 GrandForm. All rights reserved.</small>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

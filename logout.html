@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GrandForm - Logged Out</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="refresh" content="2;url=login.html">
+</head>
+<body>
+    <header class="site-header">
+        <span class="brand">GrandForm</span>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <main class="auth-main">
+        <h2>You have been logged out.</h2>
+        <p>You will be redirected to the Login page.</p>
+    </main>
+    <footer>
+        <small>&copy; 2025 GrandForm. All rights reserved.</small>
+    </footer>
+    <script>
+        // Optional: clear simulated session
+        localStorage.removeItem("currentUser");
+    </script>
+</body>
+</html>

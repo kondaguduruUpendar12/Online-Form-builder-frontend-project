@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GrandForm - Theme Customizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <span class="brand">GrandForm</span>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="themes.html" class="active">Theme</a>
+            <a href="settings.html">Settings</a>
+        </nav>
+    </header>
+    <main class="themes-main">
+        <h2>Customize Your Theme</h2>
+        <label>
+            Header color:<input type="color" id="themeHeaderColor" value="#684cf5">
+        </label>
+        <label>
+            Background:<input type="color" id="themeBgColor" value="#f8f7fc">
+        </label>
+        <label>
+            Font style:
+            <select id="themeFont">
+                <option value="Poppins">Poppins</option>
+                <option value="Roboto">Roboto</option>
+                <option value="Lato">Lato</option>
+            </select>
+        </label>
+        <button id="applyThemeBtn" class="save-btn">Apply Theme</button>
+        <a href="dashboard.html" class="back-btn">Back to Dashboard</a>
+    </main>
+    <footer>
+        <small>&copy; 2025 GrandForm. All rights reserved.</small>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

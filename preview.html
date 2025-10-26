@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GrandForm - Form Preview</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <span class="brand">GrandForm</span>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="create-form.html">Builder</a>
+            <a href="preview.html" class="active">Preview</a>
+            <a href="responses.html">Responses</a>
+        </nav>
+    </header>
+    <main class="preview-main">
+        <h2 id="preview-title">[Form Title]</h2>
+        <p id="preview-desc">[Form Description]</p>
+        <form id="previewForm">
+            <!-- Dynamically render questions here with JS -->
+            <div id="previewQuestions"></div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+        <a href="create-form.html" class="back-btn">Back to Builder</a>
+    </main>
+    <footer>
+        <small>&copy; 2025 GrandForm. All rights reserved.</small>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

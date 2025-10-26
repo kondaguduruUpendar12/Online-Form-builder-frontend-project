@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GrandForm - Settings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <span class="brand">GrandForm</span>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="themes.html">Theme</a>
+            <a href="settings.html" class="active">Settings</a>
+        </nav>
+    </header>
+    <main class="settings-main">
+        <h2>Form Settings</h2>
+        <form id="settingsForm">
+    <label>
+        <input type="checkbox" checked> Accept Responses
+    </label>
+    <label>
+        <input type="checkbox"> Limit to one response per user
+    </label>
+    <label>
+        <input type="checkbox"> Show progress bar
+    </label>
+    <label>
+        <input type="checkbox"> Shuffle question order
+    </label>
+    <hr>
+    <label>Text Color:
+        <input type="color" id="settingTextColor" value="#4828ac">
+    </label>
+    <label>Background Color:
+        <input type="color" id="settingBgColor" value="#f6f4fd">
+    </label>
+    <button type="submit" class="save-btn">Save Settings</button>
+</form>
+
+        <a href="dashboard.html" class="back-btn">Back to Dashboard</a>
+    </main>
+    <footer>
+        <small>&copy; 2025 GrandForm. All rights reserved.</small>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
