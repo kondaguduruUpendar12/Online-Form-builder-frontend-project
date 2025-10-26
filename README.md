@@ -9,4 +9,4 @@ Drag-and-Drop Reordering: Easily rearrange questions or form sections.
 
 Theme Customization: Users can switch between different themes for form presentation.
 
-Preview Mode: Instant preview of the form as users build it.
+Preview Mode: Instant preview of the form as users build  it.
